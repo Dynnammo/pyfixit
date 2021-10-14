@@ -2,7 +2,7 @@
 import os
 from setuptools import setup, find_packages
 
-from constants import VERSION
+from pyfixit2.constants import VERSION
 
 setup(
    name = 'pyfixit2',
@@ -11,7 +11,7 @@ setup(
    author_email = 'baptiste.thivend@insa-lyon.fr',
    url = 'https://github.com/Dynnammo/pyfixit',
    description = 'A Python library wrapping the iFixit API.',
-   long_description = open('../README.md').read(),
+   long_description = open('./README.md').read(),
    long_description_content_type = "text/markdown",
    setup_requires=['wheel'],
    packages = find_packages(),
